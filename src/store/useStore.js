@@ -1,4 +1,3 @@
-// src/store/useStore.js
 import { defineStore } from 'pinia';
 import { useQuery } from '@vue/apollo-composable';
 import gql from 'graphql-tag';
@@ -37,7 +36,7 @@ export const useStore = defineStore('main', {
     calculateTotalDistance() {
       const calculateDistance = (points) => {
         const rad = (x) => (x * Math.PI) / 180;
-        const R = 6378137; // Earth’s mean radius in meters
+        const R = 6378137;
 
         let totalDistance = 0;
 

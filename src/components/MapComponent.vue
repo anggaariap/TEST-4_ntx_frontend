@@ -1,4 +1,3 @@
-<!-- src/components/MapComponent.vue -->
 <template>
     <div id="map" ref="map" style="height: 100vh;"></div>
   </template>

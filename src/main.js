@@ -1,4 +1,3 @@
-// src/main.js
 import { createApp, provide, h } from 'vue';
 import App from './App.vue';
 import { createPinia } from 'pinia';
